@@ -140,3 +140,37 @@ footer a {
   background-color: white;
   border-radius: 0.2em;
 }
+
+/* Home page specific styles */
+.profile-summary {
+  line-height: 1.6;
+}
+
+.profile-summary h3 {
+  color: #0798ab;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0798ab;
+  padding-bottom: 5px;
+}
+
+.profile-summary ul {
+  margin-left: 20px;
+}
+
+.profile-summary ul li {
+  margin-bottom: 8px;
+}
+
+.call-to-action {
+  background: linear-gradient(45deg, rgba(7, 152, 171, 0.1), transparent);
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-left: 4px solid #0798ab;
+}
+
+.call-to-action p {
+  margin: 0;
+  font-size: 1.1em;
+}
