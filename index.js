@@ -56,13 +56,13 @@ function sortSkillsByName(skills) {
 }
 
 function loadProjects(){
-  fetch("projects.json").then(json => json.json()).then(projects =>{
+  fetch("projects.json").then(json => json.json()).then(projects => {
     printProjects(projects);
   });
 }
 
 function printProjects(projects){
-  var projectsMapResult = projects.map((project)=>{
+  var projectsMapResult = projects.map((project) => {
     return `<li><a href="${project.url}">${project.name}</a>: <span>${project.description}</span></li>`;
   });
   $("#projects ul").innerHTML = projectsMapResult.join("");
