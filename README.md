@@ -1,7 +1,7 @@
-# Matei's CV
+# Culea's CV
 
 My personal CV made with `HTML`, `CSS` and `JS`.
 
 ## Live
 
-[nmatei.github.io](https://nmatei.github.io/)
+[vculea.github.io](https://vculea.github.io/)
