@@ -19,7 +19,7 @@ body {
   margin: 5px 0;
 }
 #header-wrapper h2 {
-  margin: 5px 0;
+  margin: 0px 0px;
 }
 #header-info {
   flex: 1;
@@ -49,6 +49,11 @@ body {
   color: green;
 }
 
+#projects li a {
+  color: rgb(96, 63, 150);
+  font-weight: bold;
+}
+
 #main {
   flex: 2;
   padding: 10px 10px 10px 5px;
@@ -75,8 +80,8 @@ footer a {
 }
 
 #job-title {
-  color: blue;
-  text-align: right;
+  color: rgb(96, 63, 150);
+  text-align: left;
 }
 
 .page {
@@ -88,6 +93,7 @@ footer a {
   border-radius: 2px;
 }
 .page h2 {
+  color: #0798ab;
   margin: 0;
 }
 

@@ -1,4 +1,4 @@
-let activePage = "skills";
+let activePage = "home";
 
 function $(selector) {
   return document.querySelector(selector);
@@ -55,6 +55,20 @@ function sortSkillsByName(skills) {
   return skills.sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function loadProjects(){
+  fetch("projects.json").then(json => json.json()).then(projects =>{
+    printProjects(projects);
+  });
+}
+
+function printProjects(projects){
+  var projectsMapResult = projects.map((project)=>{
+    return `<li><a href="${project.url}">${project.name}</a>: <span>${project.description}</span></li>`;
+  });
+  $("#projects ul").innerHTML = projectsMapResult.join("");
+}
+
 showPage(activePage);
 initEvents();
 loadSkills();
+loadProjects();
