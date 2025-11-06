@@ -180,3 +180,23 @@ footer a {
   margin: 0;
   font-size: 1.1em;
 }
+
+#languageList {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#languageList th,
+#languageList td {
+  border: 1px solid #0798ab;
+  padding: 5px;
+}
+
+#languageList th {
+  color: white;
+  background: #0798ab;
+}
+
+#languageList tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

@@ -70,7 +70,29 @@ function printProjects(projects){
   $("#projects ul").innerHTML = projectsMapResult.join("");
 }
 
+function loadLanguages() {
+  fetch("languages.json")
+    .then((response) => response.json())
+    .then((languages) => {
+      printLanguages(languages);
+    });
+}
+
+function printLanguages(languages){
+  var languageMapResult = languages.map(getLanguageAsHTML);
+  $("#languageList tbody").innerHTML = languageMapResult.join("");
+}
+
+function getLanguageAsHTML(language){
+  return `<tr>
+    <td>${language.language}</td>
+    <td>${language.level}</td>
+    <td>${language.explication}</td>
+  </tr>`;
+}
+
 showPage(activePage);
 initEvents();
 loadSkills();
 loadProjects();
+loadLanguages();
