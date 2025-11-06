@@ -1,0 +1,22 @@
+[
+  { 
+    "language": "Romanian",
+    "level": "Native",
+    "explication": "This is the mother tongue. The person has complete understanding and perfect fluency, capable of communicating effectively, with nuance, and effortlessly in any context, including professional and academic settings." 
+  },
+  { 
+    "language": "English", 
+    "level": "Limited working proficiency",
+    "explication": "This level indicates the ability to communicate in English in a limited manner. The person can understand and use basic phrases and expressions but may struggle with more complex language."
+  },
+  { 
+    "language": "Italian",
+    "level": "Basic proficiency",
+    "explication": "This level signifies a basic understanding of Italian. The person can communicate simple ideas and understand basic conversations but lacks fluency."
+  },
+  { 
+    "language": "Russian", 
+    "level": "Basic proficiency",
+    "explication": "This level signifies a basic understanding of Russian. The person can communicate simple ideas and understand basic conversations but lacks fluency."
+  }
+]
