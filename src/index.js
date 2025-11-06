@@ -33,7 +33,7 @@ function initEvents() {
 }
 
 function loadSkills() {
-  fetch("skills.json")
+  fetch("data/skills.json")
     .then((response) => response.json())
     .then((skills) => {
       printSkills(skills);
@@ -58,7 +58,7 @@ function sortSkillsByName(skills) {
 }
 
 function loadProjects(){
-  fetch("projects.json").then(json => json.json()).then(projects => {
+  fetch("data/projects.json").then(json => json.json()).then(projects => {
     printProjects(projects);
   });
 }
@@ -71,7 +71,7 @@ function printProjects(projects){
 }
 
 function loadLanguages() {
-  fetch("languages.json")
+  fetch("data/languages.json")
     .then((response) => response.json())
     .then((languages) => {
       printLanguages(languages);
