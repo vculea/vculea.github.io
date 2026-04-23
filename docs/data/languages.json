@@ -7,16 +7,16 @@
   { 
     "language": "English", 
     "level": "Limited working proficiency",
-    "explication": "This level indicates the ability to communicate in English in a limited manner. The person can understand and use basic phrases and expressions but may struggle with more complex language."
+    "explication": "The individual can communicate in English for simple or routine work-related tasks. Understanding complex conversations or specialized terminology might be limited. This level usually means the person can handle basic job requirements but may struggle with deep technical discussions or formal writing."
   },
   { 
     "language": "Italian",
     "level": "Basic proficiency",
-    "explication": "This level signifies a basic understanding of Italian. The person can communicate simple ideas and understand basic conversations but lacks fluency."
+    "explication": "The person has a fundamental level of understanding and expression. They can use basic phrases to satisfy concrete needs (greetings, simple questions, shopping, etc.), but communication is not fluent and is restricted to familiar topics."
   },
   { 
     "language": "Russian", 
     "level": "Basic proficiency",
-    "explication": "This level signifies a basic understanding of Russian. The person can communicate simple ideas and understand basic conversations but lacks fluency."
+    "explication": "Similar to Italian, this indicates an elementary knowledge of the language. The person can form simple sentences and understand frequent words and expressions, but cannot sustain complex or long conversations."
   }
 ]
